@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "OpenSansSemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"), url("../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "PTSansBold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/PTSansBold/PTSansBold.eot?#iefix") format("embedded-opentype"), url("../fonts/PTSansBold/PTSansBold.woff") format("woff"), url("../fonts/PTSansBold/PTSansBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "LatoBlack";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/LatoBlack/LatoBlack.eot?#iefix") format("embedded-opentype"), url("../fonts/LatoBlack/LatoBlack.woff") format("woff"), url("../fonts/LatoBlack/LatoBlack.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "LatoItalic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/LatoItalic/LatoItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/LatoItalic/LatoItalic.woff") format("woff"), url("../fonts/LatoItalic/LatoItalic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "MontserratBold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/MontserratBold/montserrat-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/MontserratBold/montserrat-bold.woff") format("woff"), url("../fonts/MontserratBold/montserrat-bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "MyriadProRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "UbuntuBold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/UbuntuBold/UbuntuBold.eot?#iefix") format("embedded-opentype"), url("../fonts/UbuntuBold/UbuntuBold.woff") format("woff"), url("../fonts/UbuntuBold/UbuntuBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/font-awesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/font-awesome/fontawesome-webfont.woff") format("woff"), url("../fonts/font-awesome/fontawesome-webfont.ttf") format("truetype"); }

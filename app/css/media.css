@@ -1,0 +1,155 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1170px) {
+	
+}
+@media only screen and (max-width : 991px){
+	
+}
+@media only screen and (max-width : 788px){
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+#menu {
+	display: none;
+}
+
+#toggle_mnu{
+	display: inline-block;
+}
+
+.mnu{
+	text-align: right;
+	min-height: 60px;
+	width: 100%;
+	min-width: 200px;
+	padding-top: 10px;
+	border: 1px solid #fff;
+	margin: 0 auto 20px;
+}
+.fa-bars{
+	padding: 5px 13px;
+	border: 1px solid #fff;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	color: #fff;
+}
+.mnu nav ul > li{
+	display: block;
+	margin: 0;
+	text-align: left;
+	text-transform: uppercase;
+}
+.mnu #menu ul li{
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+.mnu #menu ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.mnu #menu{
+	padding: 23px 0 0 0;
+}
+.mnu nav ul .lang-item{
+	display: inline-block;
+	border: 1px solid #604b6c;
+	margin: 0 0 10px 0;
+	float: none;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: "HarmoniaRegular";
+
+}
+.mnu nav ul .current_page_item {
+	background-color: #695175;
+}
+.header_top .tel:nth-child(3){
+	padding-bottom: 0;
+}
+.mnu nav ul > li > a{
+	width: 100%;
+	padding: 12px 20px 10px;
+	height: auto;
+	display: block;
+}
+
+}
+@media only screen and (max-width : 680px){
+
+}
+@media only screen and (max-width : 603px){
+	.select{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.shop_inner input{
+		margin-bottom: 30px;
+	}
+
+}
+
+@media only screen and (max-width : 520px){
+	
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+}
+
+@media only screen and (max-width : 420px) {
+
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 380px) {
+	
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	#menu{
+		display: inline-block !important;
+		
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+/*#menu{
+	display: inline-block !important;
+}*/
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+
+
+}
