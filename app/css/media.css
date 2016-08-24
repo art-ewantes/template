@@ -6,13 +6,96 @@
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 1170px) {
-	
+	.mnu #menu ul li a{
+		font-size: 12px;
+	}
+	.head_phone span{
+		font-size: 12px;
+	}
+	.owl-prev{
+		left: -5%;
+	}
+	.owl-next{
+		right: -5%;
+	}
 }
 @media only screen and (max-width : 991px){
-	
+	.mnu #menu ul li + li{
+		margin: 0 5px 0 5px;
+	}
+	.mnu #menu ul li:last-child{
+		margin: 0;
+	}
+	.mnu #menu ul li{
+		margin: 0;
+	}
+	.mnu #menu ul li a{
+		font-size: 11px;
+	}
+	.head_phone span{
+		font-size: 10px;
+	}
+	.main_head h1{
+		font-size: 43px;
+	}
+	.main_head p{
+		font-size: 23px;
+	}
+	.mail, .name, .phone{
+		width: 100%;
+	}
+	.form-group input[name="name"], .form-group input[name="email"]{
+		width: 100%;
+	}
+	.form-group input, .form-group select{
+		width: 100%;
+	}
+	.blog_item{
+		display: block;
+		margin: 30px auto 0 auto;
+	}
 }
 @media only screen and (max-width : 788px){
-	
+	.mnu #menu ul li + li{
+		margin: 0;
+	}
+	.mnu #menu ul li:last-child{
+		margin: 0;
+	}
+	.mnu #menu ul li{
+		margin: 0;
+	}
+	.country_hover:hover .dropdown-menu{
+		display: none !important;
+	}
+	.main_head h1{
+		font-size: 35px;
+	}
+	.main_head p{
+		font-size: 20px;
+	}
+	.battom a{
+		font-size: 16px;
+	    padding: 21px 55px;
+	}
+	.text-battom{
+		padding: 0 0 0 0;
+	}
+	.prace-content h2{
+		font-size: 24px;
+	}
+	.advantages ol{
+		list-style-type: inside;
+		padding: 0 10px;
+	}
+	.advantages ol li:after{
+		background-image: none;
+		
+	}
+	.advantages ol li{
+		font-size: 15px;
+	}
+
 }
 
 /* Small Devices, Tablets */
@@ -82,10 +165,45 @@
 	height: auto;
 	display: block;
 }
-
+	.display_table .container_img{
+		display: block;
+	}
+	.display_table .container_text{
+		display: block;
+	}
+	#programm h2{
+		font-size: 1.875em;
+	}
+	.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled{
+		display: none;
+	}
+	.blog_item{
+		display: block;
+		margin: 30px auto 0 auto;
+	}
+	.blog h1{
+		margin-top: 0;
+		font-size: 28px;
+	}
+	.blog .button{
+		margin-top: 60px;
+	}
 }
 @media only screen and (max-width : 680px){
-
+	.display_table .container_img{
+		display: block;
+	}
+}
+@media only screen and (max-width : 620px){
+	.port_descr .main_form .right{
+		float: none;
+	}
+	.port_descr .main_form .left{
+		float: none;
+	}
+	.port_descr .main_form button{
+		margin-left: 0;
+	}
 }
 @media only screen and (max-width : 603px){
 	.select{
@@ -100,21 +218,64 @@
 }
 
 @media only screen and (max-width : 520px){
-	
+	.port_descr h1{
+		padding: 25px 25px;
+	}
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	
+	.main_head h1{
+		font-size: 28px;
+	}
+	.main_head{
+		background-image: url(../img/header_bg.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	.video-bg{
+		display: none;
+	}
 }
 
 @media only screen and (max-width : 420px) {
+	.img_row{
+		width: 300px;
+	}
+	.one span{
+		font-size: 1.375em;
+	}
+	.left_side_contact{
+		margin-top: 30px;
+	}
+	.blog_item img{
+		width: 280px;
+	    max-width: 100%;
+	}
+	.blog_item p{
+		font-size: 16px;
+		max-height: 180px;
+		overflow: hidden;
+	}
+	.blog_item .title{
+		font-size: 18px;
+	}
 
 }
 
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 380px) {
-	
+	.main_head h1{
+		font-size: 23px;
+	}
+	.main_head p{
+		font-size: 16px;
+	}
+	.img_row{
+		width: 250px;
+	}
+
 }
 
 

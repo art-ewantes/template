@@ -31,6 +31,8 @@ gulp.task("scripts", function(){
 		"app/libs/owl.carousel.2.0.0/owl.carousel.min.js",
 		"app/libs/owl.carousel/dist/owl.carousel.min.js",
 		"app/libs/bootstrapvalidator/dist/js/jqBootstrapValidation.js",
+		"app/libs/magnific-popup/dist/jquery.magnific-popup.min.js",
+		"app/libs/page-scroll-to-id/PageScroll2id.min.js",
 		])
 	.pipe(concat("libs.min.js"))
 	.pipe(uglify())
